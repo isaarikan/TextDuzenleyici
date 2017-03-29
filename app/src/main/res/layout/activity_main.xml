@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="arksoft.com.textdzenleyici.MainActivity">
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="yesilYap"
+            android:textSize="30sp"
+            android:textColor="#4CAF50"
+            android:layout_weight="1"
+            android:id="@+id/yesil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YEŞİL" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#03A9F4"
+            android:layout_weight="1"
+            android:id="@+id/mavi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAVİ" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#E91E63"
+            android:layout_weight="1"
+            android:id="@+id/pembe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PEMBE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/normal"
+            android:textSize="30sp"
+            android:text="NORMAL"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bold"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BOLD"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/italic"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ITALIC"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/arti"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/eksi"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="-"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
